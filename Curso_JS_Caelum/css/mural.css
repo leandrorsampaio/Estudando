@@ -1,0 +1,28 @@
+
+.mural--linhas {
+  flex-direction: column;
+}
+
+
+.mural {
+  padding: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  /* deixa tudo em colunas
+  flex-direction: column;
+  */
+  font-size: 1.2rem;
+}
+
+@media (min-width: 610px) {
+  .mural {
+    align-itens: flex-start;
+  }
+}
+
+@media (min-width: 900px) {
+  .mural {
+    align-itens: center;
+    font-size: 1.3rem;
+  }
+}
